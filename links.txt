@@ -4,3 +4,4 @@ https://parall.ax/products/jspdf
 https://www.npmjs.com/package/angular-save-html-to-pdf
 https://github.com/frontendbr/forum/issues/797
 https://stackoverflow.com/questions/41395566/how-to-export-html-data-to-pdf-in-angularjs
+https://translate.googleusercontent.com/translate_c?depth=1&hl=pt-BR&prev=search&rurl=translate.google.com.br&sl=en&sp=nmt4&u=https://stackoverflow.com/questions/41395566/how-to-export-html-data-to-pdf-in-angularjs&xid=17259,15700022,15700124,15700149,15700168,15700186,15700190,15700201,15700208&usg=ALkJrhjAotgKvfWZOZD110eBLxyDQqBsRQ
