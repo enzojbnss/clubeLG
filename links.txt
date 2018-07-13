@@ -1,0 +1,6 @@
+como gerar pdf com html
+https://www.npmjs.com/package/ng2-pdf-viewer
+https://parall.ax/products/jspdf
+https://www.npmjs.com/package/angular-save-html-to-pdf
+https://github.com/frontendbr/forum/issues/797
+https://stackoverflow.com/questions/41395566/how-to-export-html-data-to-pdf-in-angularjs

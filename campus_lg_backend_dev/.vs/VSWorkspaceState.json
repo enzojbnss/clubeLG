@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Areas",
+    "\\Areas\\HelpPage",
+    "\\Areas\\HelpPage\\Views",
+    "\\bin",
+    "\\bin\\Configuration",
+    "\\bin\\Configuration\\IBatis",
+    "\\bin\\ru",
+    "\\Images",
+    "\\Scripts",
+    "\\Views",
+    "\\Views\\Product"
+  ],
+  "SelectedNode": "\\Views\\Product\\List.cshtml",
+  "PreviewInSolutionExplorer": false
+}
