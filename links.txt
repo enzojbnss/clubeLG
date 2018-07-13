@@ -9,3 +9,8 @@ https://stackoverflow.com/questions/36068787/angularjs-javascript-easy-way-to-co
 https://stackoverflow.com/questions/34049956/generate-pdf-from-html-using-pdfmake-in-angularjs
 https://stackoverflow.com/questions/18191893/generate-pdf-from-html-in-div-using-javascript
 https://stackoverflow.com/questions/41395566/how-to-export-html-data-to-pdf-in-angularjs
+https://www.oodlestechnologies.com/blogs/How-to-Export-Html-Data-to-PDF-in-Angularjs
+https://groups.google.com/forum/#!topic/angular/bZef6hlcVX0
+https://devblog.drall.com.br/converter-html-em-pdf-utilizando-wkhtmltopdf-via-linha-de-comando
+https://www.quora.com/How-do-I-export-my-HTML-page-as-PDF-using-JavaScript#
+https://www.pdfreactor.com/
