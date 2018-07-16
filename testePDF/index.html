@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-grid.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="body page-index clearfix">
+  <img class="image image-1" src="images/footer-logo.jpg">
+  <img class="image image-2" src="images/loader.jpg">
+  <p class="text text-1">Certificado de  conclusão do modulo de teste da plataforma Lg</p>
+  <p class="text text-2">Certifico que &nbsp;Bruno concluiu o modulo e está apto a por seus conhecimentos em pratica</p>
+   <script type="text/javascript" src="js/jquery-min.js"></script>
+  <script type="text/javascript" src="js/html2canvas.js"></script>
+  <script type="text/javascript" src="js/pdfmake.js"></script>
+  <script type="text/javascript" src="js/vfs_fonts.js"></script>
+  <script type="text/javascript">
+ 		html2canvas(document.body, {
+            onrendered: function(canvas) {
+                // document.body.appendChild(canvas);
+				var data = canvas.toDataURL();
+                var docDefinition = {
+					pageOrientation: 'landscape',						
+                    content: [{
+						image: data,
+                        width: 750,
+						height: 650
+                    }]
+                };
+                pdfMake.createPdf(docDefinition).open();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -9,10 +9,8 @@
     "\\bin\\Configuration\\IBatis",
     "\\bin\\ru",
     "\\Images",
-    "\\Scripts",
-    "\\Views",
-    "\\Views\\Product"
+    "\\Scripts"
   ],
-  "SelectedNode": "\\Views\\Product\\List.cshtml",
+  "SelectedNode": "\\bin\\MBLabs.LGClubeWebBackendLib.dll",
   "PreviewInSolutionExplorer": false
 }
