@@ -21,11 +21,19 @@ LGApp.config(['$routeProvider', '$locationProvider',
             title: 'LG Campus - Módulos do produto',
         });
 
+        $routeProvider.when('/certificado/', {
+            templateUrl: 'app/views/landing/certificado.view.html',
+            controller: 'CertificadoController',
+            title: 'LG Campus - Certificado',
+        });
+
         $routeProvider.when('/autenticacao-requerida/', {
             templateUrl: 'app/views/generic/user.not.logged.generic.view.html',
             controller: 'MainController',
             title: 'LG Campus - Autenticação Requerida',
-        }).otherwise({redirectTo: '/'});
+        }).otherwise({ redirectTo: '/' });
+
+
     }
 ]);
 

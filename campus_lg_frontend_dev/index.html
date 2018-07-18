@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt_BR">
 
 <head>
@@ -29,35 +29,39 @@
 
 <body>
 
-<div ng-app="LGApp" class="gray-pattern-bg">
-    <div ng-include="'app/views/generic/navbar.view.generic.html'"></div>
-    <ng-view></ng-view>
-    <div ng-include="'app/views/generic/footer.view.generic.html'"></div>
-</div>
+    <div ng-app="LGApp" class="gray-pattern-bg">
+        <div ng-include="'app/views/generic/navbar.view.generic.html'"></div>
+        <ng-view></ng-view>
+        <div ng-include="'app/views/generic/footer.view.generic.html'"></div>
+    </div>
 
-<script src="assets/js/jquery/jquery-3.2.1.min.js" type="application/javascript"></script>
-<script src="assets/js/bootstrap/bootstrap.min.js" type="application/javascript"></script>
-<script src="assets/js/swiper/swiper.min.js" type="application/javascript"></script>
-<script src="assets/js/percentageloader/jquery.percentageloader-0.2.js" type="application/javascript"></script>
+    <script src="assets/js/jquery/jquery-3.2.1.min.js" type="application/javascript"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js" type="application/javascript"></script>
+    <script src="assets/js/swiper/swiper.min.js" type="application/javascript"></script>
 
-<script src="assets/js/angular/angular.min.js" type="application/javascript"></script>
-<script src="assets/js/angular/angular-route.min.js" type="application/javascript"></script>
-<script src="assets/js/angular/angular-cookies.min.js" type="application/javascript"></script>
-<script src="assets/js/angular/angular-sanitize.min.js"></script>
+    <script src="assets/js/percentageloader/jquery.percentageloader-0.2.js" type="application/javascript"></script>
+    <script src="assets/js/certificado/html2canvas.js" type="application/javascript"></script>
+    <script src="assets/js/certificado/pdfmake.js" type="application/javascript"></script>
+    <script src="assets/js/certificado/vfs_fonts.js" type="application/javascript"></script>
 
-<script src="assets/js/directives/ngVideo/ng-video.js" type="application/javascript"></script>
+    <script src="assets/js/angular/angular.min.js" type="application/javascript"></script>
+    <script src="assets/js/angular/angular-route.min.js" type="application/javascript"></script>
+    <script src="assets/js/angular/angular-cookies.min.js" type="application/javascript"></script>
+    <script src="assets/js/angular/angular-sanitize.min.js"></script>
 
-<script src="https://www.youtube.com/iframe_api"></script>
-<script src="assets/js/directives/angular-youtube-embed.min.js" type="application/javascript"></script>
+    <script src="assets/js/directives/ngVideo/ng-video.js" type="application/javascript"></script>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/js/directives/angular-youtube-embed.min.js" type="application/javascript"></script>
 
 
-<script src="app/controllers/initialize.controller.js" type="application/javascript"></script>
-<script src="app/controllers/main.controller.js" type="application/javascript"></script>
-<script src="app/controllers/landing.controller.js" type="application/javascript"></script>
-<script src="app/controllers/categories.controller.js" type="application/javascript"></script>
-<script src="app/controllers/products.controller.js" type="application/javascript"></script>
+    <script src="app/controllers/initialize.controller.js" type="application/javascript"></script>
+    <script src="app/controllers/main.controller.js" type="application/javascript"></script>
+    <script src="app/controllers/landing.controller.js" type="application/javascript"></script>
+    <script src="app/controllers/categories.controller.js" type="application/javascript"></script>
+    <script src="app/controllers/products.controller.js" type="application/javascript"></script>
 
-<script src="app/app.routes.js" type="application/javascript"></script>
-<script src="app/services/api.service.js" type="application/javascript"></script>
+    <script src="app/app.routes.js" type="application/javascript"></script>
+    <script src="app/services/api.service.js" type="application/javascript"></script>
 </body>
 </html>

@@ -9,33 +9,30 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body page-index clearfix">
-	<img class="image image-1" src="images/footer-logo.jpg">
-	<img class="image image-2" src="images/loader.jpg">
-	<p class="text text-1">Certificado de conclusão do modulo de teste
-		da plataforma Lg</p>
-	<p id="teste" class="text text-2">Certifico que &nbsp;Bruno
-		concluiu o modulo e está apto a por seus conhecimentos em pratica</p>
+	<div id="">
+		<img class="image image-1" src="images/footer-logo.jpg"> <img
+			class="image image-2" src="images/loader.jpg">
+		<p class="text text-1">Certificado de conclusão do modulo de teste
+			da plataforma Lg</p>
+		<p id="teste" class="text text-2">Certifico que &nbsp;Bruno
+			concluiu o modulo e está apto a por seus conhecimentos em pratica</p>
+	</div>
 	<script type="text/javascript" src="js/jquery-min.js"></script>
 	<script type="text/javascript" src="js/html2canvas.js"></script>
 	<script type="text/javascript" src="js/pdfmake.js"></script>
 	<script type="text/javascript" src="js/vfs_fonts.js"></script>
 	<script type="text/javascript">
-	      
-	      var settings = {
-			  "async": true,
-			  "crossDomain": true,
-			  "url": "http://campuslg.yesh.com.br/api/UserMobile/Authenticate?sessionId=2ca0bd02-8e92-466a-8671-cee78abd63aa",
-			  "method": "GET"
-			}
+		var settings = {
+			"async" : true,
+			"crossDomain" : true,
+			"url" : "http://campuslg.yesh.com.br/api/UserMobile/Authenticate?sessionId=2ca0bd02-8e92-466a-8671-cee78abd63aa",
+			"method" : "GET"
+		}
 
-			$.ajax(settings).done(function (response) {
-			  gerarPdf(response.ReturnData);
-			}); 
-	
-	
-	
-	
-	    
+		$.ajax(settings).done(function(response) {
+			gerarPdf(response.ReturnData);
+		});
+
 		function gerarPdf(retorno) {
 			var nome = retorno.Name;
 			var mensagem = "Certifico que ";
